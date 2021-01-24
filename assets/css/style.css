@@ -16,6 +16,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
 body {
   /*font-family: "Open Sans", sans-serif;*/
   font-family: "Linotte";
@@ -170,7 +172,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   letter-spacing: 0.5px;
   font-weight: 500;
-  font-family: "Open Sans", sans-serif;
+  /*font-family: "Open Sans", sans-serif;*/
+  font-family: "Linotte";
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -394,7 +397,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #37517e;
+  /*background: #37517e;*/
+  background: #192735;
 }
 
 #hero .container {
@@ -426,7 +430,8 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #fff;
-  background: #47b2e4;
+  /*background: #47b2e4;*/
+  background: #15cfff;
 }
 
 #hero .btn-get-started:hover {
@@ -1848,4 +1853,8 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+}
+
+html{
+  font-family: "Linotte";
 }
